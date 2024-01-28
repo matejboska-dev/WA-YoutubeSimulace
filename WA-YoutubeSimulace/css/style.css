@@ -13,16 +13,22 @@ body {
 
 }
 
-aside
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    background-color: white;
-    color: dimgray;
-
+main {
+  flex-grow: 1;
+  margin-left: 250px; /* Adjust the margin based on your aside width */
 }
+
+aside {
+  width: 250px; /* Set the width for your aside */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: white;
+  color: dimgray;
+}
+
 
 .video-section {
   display: grid;
