@@ -17,16 +17,7 @@ main {
   flex-grow: 1;
 }
 
-aside
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    background-color: white;
-    color: dimgray;
 
-}
 
 
 .side-element-container

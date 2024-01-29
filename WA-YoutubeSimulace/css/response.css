@@ -1,11 +1,14 @@
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr ;
     grid-template-rows: auto 1fr auto;
     grid-template-areas: 
-        "header header"
-        "aside main"
-        "footer footer";
+        "header"
+        "main"
+        "footer";
+}
+aside {
+    display: none;
 }
 
 header { grid-area: header; }
@@ -23,6 +26,16 @@ footer { grid-area: footer; }
             "aside main main main main"
             "footer footer footer footer footer";
     }
+    aside
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: white;
+    color: dimgray;
+
+}
 }
 
 /*response for pc*/
@@ -35,4 +48,15 @@ footer { grid-area: footer; }
             "aside main main main main"
             "footer footer footer footer footer";
     }
+
+    aside
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: white;
+    color: dimgray;
+
+}
 }
