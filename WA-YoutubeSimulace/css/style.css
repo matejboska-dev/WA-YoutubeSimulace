@@ -15,19 +15,19 @@ body {
 
 main {
   flex-grow: 1;
-  margin-left: 0px; 
 }
 
-aside {
-  width: 250px; 
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  background-color: white;
-  color: dimgray;
+aside
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: white;
+    color: dimgray;
+
 }
+
 
 .side-element-container
 {
