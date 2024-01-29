@@ -29,7 +29,42 @@ aside {
   color: dimgray;
 }
 
+.side-element-container
+{
+    width: 100%;
+    height: 75px;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+    font-weight: 500;
+   
+}
 
+
+.side-element-break
+{
+    background-color: rgb(215, 212, 212);
+    height: 2px;
+    width: 100%;
+    margin:  20px 0;
+}
+
+.icon
+{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 36px !important;
+    width: 36px;
+    height: 36px;
+    
+    
+}
 .video-section {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
